@@ -1,0 +1,90 @@
+/* QuizApp.css */
+
+.quiz-app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7fafc; /* Equivalent to bg-gray-100 */
+}
+
+.quiz-card {
+  width: 100%;
+  max-width: 32rem; /* Equivalent to max-w-lg */
+  background-color: white;
+  padding: 1.25rem; /* Equivalent to p-5 */
+  border-radius: 0.375rem; /* Equivalent to rounded */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-lg */
+}
+
+.quiz-title {
+  padding: 0.5rem; /* Equivalent to p-2 */
+  border: 1px solid #e2e8f0; /* Equivalent to border */
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1rem; /* Equivalent to mb-4 */
+  font-size: 1.25rem; /* Equivalent to text-xl */
+}
+/* QuizResults.css */
+
+.results-container {
+  text-align: center; /* Equivalent to text-center */
+}
+
+.results-score {
+  font-size: 1.25rem; /* Equivalent to text-xl */
+}
+
+/* App.css */
+
+.quiz-button {
+  display: block; /* Equivalent to block */
+  width: 100%; /* Equivalent to w-full */
+  padding: 0.5rem; /* Equivalent to p-2 */
+  margin-top: 0.5rem; /* Equivalent to mt-2 */
+  border-radius: 0.375rem; /* Equivalent to rounded */
+  border: 1px solid #ccc; /* Equivalent to border */
+  background-color: white; /* Default background color */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.2s ease; /* Smooth transition for hover effect */
+}
+
+.quiz-button:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+.bg-green-200 {
+  background-color: #c6f6d5; /* Light green for correct answer */
+}
+
+.bg-red-200 {
+  background-color: #fed7d7; /* Light red for incorrect answer */
+}
+
+/* NextQuestionButton.css */
+
+.next-question-button {
+  margin-top: 10px;
+  display: block; /* Equivalent to block */
+  width: 100%; /* Equivalent to w-full */
+  background-color: #28a745; /* Equivalent to bg-green-500 */
+  color: white; /* Equivalent to text-white */
+  padding: 0.5rem; /* Equivalent to p-2 */
+  border-radius: 0.375rem; /* Equivalent to rounded */
+  border: none; /* Removes default border */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transition: background-color 0.2s ease; /* Smooth transition for hover effect */
+}
+
+.next-question-button:hover {
+  background-color: #218838; /* Darker green for hover effect */
+}
+
+/* QuestionCounter.css */
+
+.question-counter {
+  text-align: center; /* Equivalent to text-center */
+  color: #a0aec0; /* Equivalent to text-grey-400 (adjust the color code as needed) */
+  font-size: 0.875rem; /* Equivalent to text-sm (rem size for small text) */
+}
+
